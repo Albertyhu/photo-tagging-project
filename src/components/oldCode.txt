@@ -1,0 +1,38 @@
+    //when the user clicks on the image, the app checks looks into the array of easter egg 
+    //and see if the user click into any of their hit boxes.
+    const checkObjectArray = event => {
+        objArray.forEach(val => {checkIfClicked(event, val)})
+    }
+
+    //check is the coordinate of click is within object's hitbox 
+    const checkIfClicked = (event, object) => {
+       // console.log(`(${event.offsetX}, ${event.offsetY})`)
+        if (checkY(object, event.offsetY) && checkX(object, event.offsetX)) {
+            alert(object.id + " is found!"); 
+        }
+    }
+
+        //check is the click's y coordinate falls inside the easter egg's hitbox 
+    const checkY = (object, yClick) => {
+        var divHeight = parseFloat(document.getElementById('PhotoBody').offsetHeight); 
+        var yLocation = (yClick / divHeight).toFixed(2)
+        console.log("yLocation: " + yLocation)
+        if (yLocation <= object.minY && yLocation >= object.maxY) {
+            console.log("hit Y")
+            return true
+        }
+        else 
+            return false 
+    }
+
+    //check is the click's x coordinate falls inside the easter egg's hitbox 
+    const checkX = (object, xClick) =>{
+        var xLocation = (parseFloat(xClick / window.innerWidth)).toFixed(2);
+      //  console.log("xLocation: " + xLocation)
+        if (xLocation >= object.minX && xLocation <= object.maxX) {
+            console.log("hit X")
+            return true; 
+        }
+        else 
+            return false 
+    }

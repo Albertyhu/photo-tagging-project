@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cdac6ba9.css",
-    "main.js": "/static/js/main.0c40b92c.js",
+    "main.js": "/static/js/main.6d96d941.js",
     "static/media/Comic_Con.jpg": "/static/media/Comic_Con.aa4c8a5164af0fca666e.jpg",
     "static/media/Waldo.png": "/static/media/Waldo.be77ff286a1acd5d21b9.png",
     "static/media/Catwoman.png": "/static/media/Catwoman.c49d33282310e52b8898.png",
@@ -11,10 +11,10 @@
     "static/media/VaultBoy.png": "/static/media/VaultBoy.5bd2aa36e0ec27476bad.png",
     "index.html": "/index.html",
     "main.cdac6ba9.css.map": "/static/css/main.cdac6ba9.css.map",
-    "main.0c40b92c.js.map": "/static/js/main.0c40b92c.js.map"
+    "main.6d96d941.js.map": "/static/js/main.6d96d941.js.map"
   },
   "entrypoints": [
     "static/css/main.cdac6ba9.css",
-    "static/js/main.0c40b92c.js"
+    "static/js/main.6d96d941.js"
   ]
 }

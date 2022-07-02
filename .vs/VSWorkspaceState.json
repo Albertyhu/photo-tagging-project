@@ -4,9 +4,10 @@
     "\\public",
     "\\src",
     "\\src\\asset",
+    "\\src\\asset\\character_image",
     "\\src\\components",
     "\\src\\style"
   ],
-  "SelectedNode": "\\src\\App.js",
+  "SelectedNode": "\\src\\components\\navBar.js",
   "PreviewInSolutionExplorer": false
 }

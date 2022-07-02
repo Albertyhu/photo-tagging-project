@@ -11,6 +11,8 @@ const RenderQueryMenu = props => {
     var imageWidth = document.getElementById('PhotoBody').offsetWidth;
     var imageHeight = document.getElementById('PhotoBody').offsetHeight; 
 
+
+
     return (
         <QueryContainer
             translateX={xCoor + 250 <= imageWidth ? `${((xCoor + 20) / imageWidth)*100}%` : `${((xCoor - 232) / imageWidth) * 100 }%`}
@@ -19,10 +21,10 @@ const RenderQueryMenu = props => {
         >
             <Menu_UL>
                 <Title>Which character did you find?</Title>
-                <Item onClick={() => {handleClickEvent("Batwoman")}}>Batwoman</Item>
-                <Item onClick={() => { handleClickEvent("Faith") }}>Faith</Item>
-                <Item onClick={() => { handleClickEvent("Waldo") }}>Waldo</Item>
-                <Item onClick={() => { handleClickEvent("Vault Boy") }}>Vault Boy</Item>
+                <Item onMouseDown={() => {handleClickEvent("Catwoman")}}>Catwoman</Item>
+                <Item onMouseDown={() => { handleClickEvent("Faith") }}>Faith</Item>
+                <Item onMouseDown={() => { handleClickEvent("Waldo") }}>Waldo</Item>
+                <Item onMouseDown={() => { handleClickEvent("Vault Boy") }}>Vault Boy</Item>
               </Menu_UL>
         </QueryContainer>
         )

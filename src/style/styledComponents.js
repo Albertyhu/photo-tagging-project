@@ -56,7 +56,6 @@ justify-content: space-between;
 color: #fff;
 `
 
-
 export const Button = styled.div`
     margin-left: auto;
     margin-right: auto;

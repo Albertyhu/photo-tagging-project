@@ -2,7 +2,7 @@
   "name": "cv-project",
   "version": "0.1.0",
   "private": true,
-  "home": "https://github.com/Albertyhu",
+  "home": "https://github.com/Albertyhu/photo-tagging-project/",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.4",

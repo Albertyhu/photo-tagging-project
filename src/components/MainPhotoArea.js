@@ -13,11 +13,13 @@ const RenderMainPhoto = props => {
 export default RenderMainPhoto; 
 
 const PhotoBody = styled.div`
-width: 100%; 
+width: 100%;
 height: inherit; 
 `
 
 const MainImage = styled.img`
 width: inherit;
 height: inherit; 
+
+
 `

@@ -435,6 +435,6 @@ export default App;
 
 
 const loadingStyle = {
-
+    color: "#fff",
     marginLeft: "10px",
 }

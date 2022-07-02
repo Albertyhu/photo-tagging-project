@@ -53,6 +53,7 @@ margin-right: auto;
 margin-top: 100px;
 display: flex;
 justify-content: space-between;
+color: #fff;
 `
 
 
@@ -71,6 +72,7 @@ export const Button = styled.div`
     cursor: pointer; 
     text-align: center;
     user-select: none; 
+
   &:hover {
     background-color: #dfdfdf;
   }
@@ -78,6 +80,19 @@ export const Button = styled.div`
     transform: translate(4px, 4px);
     background-color: #EDEDED;
   }
+    &#NavResetButton{
+        margin-left: 20px; 
+        margin-right: 20px;
+    }
+
+@media screen and (max-width: 768px){
+    &#NavResetButton{
+        margin-left: auto; 
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
 `
 export const Title = styled.div`
     font-weight: bold; 

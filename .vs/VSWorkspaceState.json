@@ -1,13 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
-    "\\src",
-    "\\src\\asset",
-    "\\src\\asset\\character_image",
-    "\\src\\components",
-    "\\src\\style"
+    "\\src"
   ],
-  "SelectedNode": "\\firebase.json",
+  "SelectedNode": "\\firestore.rules",
   "PreviewInSolutionExplorer": false
 }
